@@ -11,7 +11,14 @@ public abstract class Person {
 
     //abstract methods
     abstract void  display();
-
-
+    public  String getName(){
+        return name;
+    }
+    public int getAge(){
+        return age;
+    }
+    public void SetName(String name){
+        this.name=name;
+    }
 
 }
